@@ -11,6 +11,9 @@
 		991BBC562BBF402C00DCC6E3 /* FilePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991BBC552BBF402C00DCC6E3 /* FilePicker.swift */; };
 		991BBC582BBF402D00DCC6E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 991BBC572BBF402D00DCC6E3 /* Assets.xcassets */; };
 		991BBC5B2BBF402D00DCC6E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 991BBC5A2BBF402D00DCC6E3 /* Preview Assets.xcassets */; };
+		991BBC622BC024C600DCC6E3 /* FileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991BBC612BC024C600DCC6E3 /* FileReader.swift */; };
+		991BBC642BC0255800DCC6E3 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991BBC632BC0255800DCC6E3 /* Employee.swift */; };
+		991BBC662BC02EB900DCC6E3 /* FilePickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991BBC652BC02EB900DCC6E3 /* FilePickerViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		991BBC552BBF402C00DCC6E3 /* FilePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilePicker.swift; sourceTree = "<group>"; };
 		991BBC572BBF402D00DCC6E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		991BBC5A2BBF402D00DCC6E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		991BBC612BC024C600DCC6E3 /* FileReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileReader.swift; sourceTree = "<group>"; };
+		991BBC632BC0255800DCC6E3 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		991BBC652BC02EB900DCC6E3 /* FilePickerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilePickerViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +57,11 @@
 		991BBC522BBF402C00DCC6E3 /* Employees */ = {
 			isa = PBXGroup;
 			children = (
+				991BBC632BC0255800DCC6E3 /* Employee.swift */,
 				991BBC532BBF402C00DCC6E3 /* EmployeesApp.swift */,
 				991BBC552BBF402C00DCC6E3 /* FilePicker.swift */,
+				991BBC652BC02EB900DCC6E3 /* FilePickerViewModel.swift */,
+				991BBC612BC024C600DCC6E3 /* FileReader.swift */,
 				991BBC572BBF402D00DCC6E3 /* Assets.xcassets */,
 				991BBC592BBF402D00DCC6E3 /* Preview Content */,
 			);
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				991BBC622BC024C600DCC6E3 /* FileReader.swift in Sources */,
+				991BBC642BC0255800DCC6E3 /* Employee.swift in Sources */,
 				991BBC562BBF402C00DCC6E3 /* FilePicker.swift in Sources */,
 				991BBC542BBF402C00DCC6E3 /* EmployeesApp.swift in Sources */,
+				991BBC662BC02EB900DCC6E3 /* FilePickerViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

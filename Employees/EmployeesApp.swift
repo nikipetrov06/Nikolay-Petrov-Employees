@@ -11,7 +11,9 @@ import SwiftUI
 struct EmployeesApp: App {
     var body: some Scene {
         WindowGroup {
-            FilePicker()
+            let viewModel = FilePickerViewModel()
+            
+            FilePicker(viewModel: viewModel)
         }
     }
 }
